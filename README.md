@@ -1,79 +1,79 @@
-    ❤️ Heart Disease Prediction using Machine Learning
+# ❤️ Heart Disease Prediction using Machine Learning
 
-    🌍 Live Demo
+## 🌍 Live Demo
 
-    Frontend:
-    https://heart-disease-predictions-heart.streamlit.app/
+**Frontend:**  
+https://heart-disease-predictions-heart.streamlit.app/
 
-    Backend API Docs:
-    https://heart-disease-prediction-afjb.onrender.com/docs
+**Backend API Docs:**  
+https://heart-disease-prediction-afjb.onrender.com/docs
 
-    📌 Project Overview
+---
 
-    This project builds a complete machine learning pipeline to predict the presence of heart disease using structured clinical patient data.
+## 📌 Project Overview
 
-    The workflow includes:
+This project builds a complete machine learning pipeline to predict the presence of heart disease using structured clinical patient data.
 
-    Exploratory Data Analysis (EDA)
+The workflow includes:
 
-    Feature Engineering
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Model Comparison
+- Cross-Validation
+- Hyperparameter Tuning
+- Deployment using FastAPI and Streamlit
 
-    Model Comparison
+---
 
-    Cross-Validation
+## 📊 Dataset Information
 
-    Hyperparameter Tuning
+- 918 patient records  
+- 11 clinical input features  
+- Binary target (HeartDisease)
 
-    Deployment using FastAPI and Streamlit
+---
 
-    📊 Dataset Information
+## 🔍 Key Insights from EDA
 
-    918 patient records
+- ST_Slope, ExerciseAngina, ChestPainType strongly impact prediction.
+- Cholesterol values recorded as 0 were handled using a missing indicator feature.
+- MaxHR and Oldpeak show clear separation between classes.
 
-    11 clinical input features
+---
 
-    Binary target (HeartDisease)
+## 🧠 Models Evaluated
 
-    🔍 Key Insights from EDA
+| Model | ROC-AUC |
+|-------|---------|
+| Logistic Regression | 0.9298 |
+| Random Forest (Tuned) | **0.9302** |
 
-    ST_Slope, ExerciseAngina, ChestPainType strongly impact prediction.
+Final Model: **Tuned Random Forest**
 
-    Cholesterol values recorded as 0 were handled using a missing indicator feature.
+---
 
-    MaxHR and Oldpeak show clear separation between classes.
+## 📸 Application Preview
 
-    🧠 Models Evaluated
-    Model	ROC-AUC
-    Logistic Regression	0.9298
-    Random Forest (Tuned)	0.9302
+### 🏠 Home Screen
+![Home](images/home.png)
 
-    Final Model: Tuned Random Forest
+### 📈 Prediction Result
+![Prediction](images/prediction.png)
 
-    📸 Application Preview
+---
 
-    🏠 Home Screen:
+## ⚙️ Tech Stack
 
-    <img src="images/home.png" width="800">
+- Python
+- Scikit-learn
+- FastAPI
+- Streamlit
+- Render
+- Git & GitHub
 
-    📈 Prediction Result:
+---
 
-    ![Prediction](images/prediction.png)
+## ⚠️ Disclaimer
 
-    ⚙️ Tech Stack
-
-    Python
-
-    Scikit-learn
-
-    FastAPI
-
-    Streamlit
-
-    Render
-
-    Git & GitHub
-
-    ⚠️ Disclaimer
-
-    This project is for educational purposes only.
-    It is not a medical diagnosis tool.
+This project is for educational purposes only.  
+It is not a medical diagnosis tool.
