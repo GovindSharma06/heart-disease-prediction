@@ -1,48 +1,56 @@
-❤️ Heart Disease Prediction using Machine Learning
-📌 Overview
+    ## 🌍 Live Demo
 
-This project builds a complete machine learning pipeline to predict the presence of heart disease using structured clinical data. The workflow includes exploratory data analysis, feature engineering, model comparison, cross-validation, hyperparameter tuning, and deployment.
+    Frontend:
+    https://heart-disease-predictions-heart.streamlit.app/
 
-📊 Dataset
+    Backend:
+    https://heart-disease-prediction-afjb.onrender.com/docs
 
-918 patient records
+    ❤️ Heart Disease Prediction using Machine Learning
+    📌 Overview
 
-11 clinical features
+    This project builds a complete machine learning pipeline to predict the presence of heart disease using structured clinical data. The workflow includes exploratory data analysis, feature engineering, model comparison, cross-validation, hyperparameter tuning, and deployment.
 
-Binary target (HeartDisease: 0 or 1)
+    📊 Dataset
 
-🔍 Key Insights
+    918 patient records
 
-ST_Slope, ExerciseAngina, ChestPainType, Oldpeak, and MaxHR are strong predictors.
+    11 clinical features
 
-Invalid cholesterol values (0) were handled using feature engineering.
+    Binary target (HeartDisease: 0 or 1)
 
-🧠 Models Evaluated
+    🔍 Key Insights
 
-Logistic Regression
+    ST_Slope, ExerciseAngina, ChestPainType, Oldpeak, and MaxHR are strong predictors.
 
-Decision Tree
+    Invalid cholesterol values (0) were handled using feature engineering.
 
-Random Forest
+    🧠 Models Evaluated
 
-Gradient Boosting
+    Logistic Regression
 
-📈 Best Model Performance
+    Decision Tree
 
-Tuned Random Forest
+    Random Forest
 
-Cross-validated ROC-AUC ≈ 0.93
+    Gradient Boosting
 
-🚀 Deployment
+    📈 Best Model Performance
 
-Backend: FastAPI (Render)
+    Tuned Random Forest
 
-Frontend: Streamlit (Streamlit Cloud)
+    Cross-validated ROC-AUC ≈ 0.93
 
-📂 Project Structure
-backend/
-frontend/
-notebooks/
-⚠️ Disclaimer
+    🚀 Deployment
 
-This project is for educational purposes only and is not a medical diagnosis tool.
+    Backend: FastAPI (Render)
+
+    Frontend: Streamlit (Streamlit Cloud)
+
+    📂 Project Structure
+    backend/
+    frontend/
+    notebooks/
+    ⚠️ Disclaimer
+
+    This project is for educational purposes only and is not a medical diagnosis tool.
