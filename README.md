@@ -1,56 +1,79 @@
-    ## 🌍 Live Demo
+    ❤️ Heart Disease Prediction using Machine Learning
+
+    🌍 Live Demo
 
     Frontend:
     https://heart-disease-predictions-heart.streamlit.app/
 
-    Backend:
+    Backend API Docs:
     https://heart-disease-prediction-afjb.onrender.com/docs
 
-    ❤️ Heart Disease Prediction using Machine Learning
-    📌 Overview
+    📌 Project Overview
 
-    This project builds a complete machine learning pipeline to predict the presence of heart disease using structured clinical data. The workflow includes exploratory data analysis, feature engineering, model comparison, cross-validation, hyperparameter tuning, and deployment.
+    This project builds a complete machine learning pipeline to predict the presence of heart disease using structured clinical patient data.
 
-    📊 Dataset
+    The workflow includes:
+
+    Exploratory Data Analysis (EDA)
+
+    Feature Engineering
+
+    Model Comparison
+
+    Cross-Validation
+
+    Hyperparameter Tuning
+
+    Deployment using FastAPI and Streamlit
+
+    📊 Dataset Information
 
     918 patient records
 
-    11 clinical features
+    11 clinical input features
 
-    Binary target (HeartDisease: 0 or 1)
+    Binary target (HeartDisease)
 
-    🔍 Key Insights
+    🔍 Key Insights from EDA
 
-    ST_Slope, ExerciseAngina, ChestPainType, Oldpeak, and MaxHR are strong predictors.
+    ST_Slope, ExerciseAngina, ChestPainType strongly impact prediction.
 
-    Invalid cholesterol values (0) were handled using feature engineering.
+    Cholesterol values recorded as 0 were handled using a missing indicator feature.
+
+    MaxHR and Oldpeak show clear separation between classes.
 
     🧠 Models Evaluated
+    Model	ROC-AUC
+    Logistic Regression	0.9298
+    Random Forest (Tuned)	0.9302
 
-    Logistic Regression
+    Final Model: Tuned Random Forest
 
-    Decision Tree
+    📸 Application Preview
 
-    Random Forest
+    🏠 Home Screen:
 
-    Gradient Boosting
+    ![Home](images/home.png)
 
-    📈 Best Model Performance
+    📈 Prediction Result:
 
-    Tuned Random Forest
+    ![Prediction](images/prediction.png)
 
-    Cross-validated ROC-AUC ≈ 0.93
+    ⚙️ Tech Stack
 
-    🚀 Deployment
+    Python
 
-    Backend: FastAPI (Render)
+    Scikit-learn
 
-    Frontend: Streamlit (Streamlit Cloud)
+    FastAPI
 
-    📂 Project Structure
-    backend/
-    frontend/
-    notebooks/
+    Streamlit
+
+    Render
+
+    Git & GitHub
+
     ⚠️ Disclaimer
 
-    This project is for educational purposes only and is not a medical diagnosis tool.
+    This project is for educational purposes only.
+    It is not a medical diagnosis tool.
