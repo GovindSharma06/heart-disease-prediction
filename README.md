@@ -53,7 +53,7 @@
 
     🏠 Home Screen:
 
-    ![Home](images/home.png)
+    <img src="images/home.png" width="800">
 
     📈 Prediction Result:
 
