@@ -1,3 +1,8 @@
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-API-green)
+![Streamlit](https://img.shields.io/badge/Streamlit-Frontend-red)
+![Scikit-Learn](https://img.shields.io/badge/ML-Scikit--Learn-orange)
+
 # ❤️ Heart Disease Prediction using Machine Learning
 
 ## 🌍 Live Demo
